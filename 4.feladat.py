@@ -28,7 +28,7 @@ def pig_latin(a):
         c[i]=seged+c[i][:len(c[i])-3]
         b+=c[i]+" "
     b=b.capitalize()[:len(b)-1]
-    
+
     print(b)
 
 pig_latin("The quick brown fox")
