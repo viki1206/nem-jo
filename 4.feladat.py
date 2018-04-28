@@ -19,9 +19,15 @@ def pig_latin(a):
     b += 'ay'
     b=b.capitalize()
     print(b)
-    for i in range(len(b)):
-        if b[i]==' ':
-            b=b[:i-2]+b[i-2:]
+
+    c=b.split(" ")
+    b = ""
+    for i in range(len(c)):
+        d=c[i].find("ay")-1
+        seged=c[i][d]
+        c[i]=seged+c[i][:len(c[i])-3]
+        b+=c[i]+" "
+    b=b.capitalize()[:len(b)-1]
     print(b)
 
 pig_latin("The quick brown fox")
