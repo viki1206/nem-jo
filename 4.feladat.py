@@ -19,6 +19,9 @@ def pig_latin(a):
     b += 'ay'
     b=b.capitalize()
     print(b)
-    return 0
+    for i in a:
+        if i=' ':
+
+
 
 pig_latin("The quick brown fox")
