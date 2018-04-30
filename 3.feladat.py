@@ -4,7 +4,7 @@ def keret(a):
         help = '*'
         help += b[i]
         print(help)
-    print(b)
+    
 
 
 keret('A macska szereti  a tejet')
