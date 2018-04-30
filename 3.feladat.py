@@ -3,7 +3,7 @@ def keret(a):
     for i in range(0, len(b)):
         help = '*'
         help += b[i]
-        
+        print(help)
     print(b)
 
 
