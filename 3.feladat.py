@@ -5,13 +5,14 @@ def keret(a):
         if (len(b[i]) > maximum):
             maximum = len(b[i])
     help = ''
+    for i in range(0, maximum + 2):
+        help += '*'
+    print(help)
     for i in range(0, len(b)):
         help = '*'
         help += b[i]
         print(help)
-    for i in range(0, maximum + 2):
-        help += '*'
-    print(help)
+
 
 
 
