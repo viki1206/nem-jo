@@ -15,5 +15,4 @@ def keret(a):
 
 
 
-
 keret('A macska szereti  a tejet')
