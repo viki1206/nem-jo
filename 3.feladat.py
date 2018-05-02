@@ -10,7 +10,8 @@ def keret(a):
         help += b[i]
         print(help)
     for i in range(0, maximum + 2):
-        help2 += '*' 
+        help += '*'
+    print(help)
 
 
 
