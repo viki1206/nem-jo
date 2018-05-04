@@ -2,7 +2,7 @@ def pig_latin(a):
     seged=''
     b=''
     for ch in a:
-        if 'A' <= ch <= 'z':
+        if 'a' <= ch <= 'z':
             seged+=ch
         elif len(seged)!= 0:
             for i in range(1,len(seged)):
@@ -17,18 +17,7 @@ def pig_latin(a):
         b += i
         break
     b += 'ay'
-    b=b.capitalize()
     print(b)
+    return 0
 
-    c=b.split(" ")
-    b = ""
-    for i in range(len(c)):
-        d=c[i].find("ay")-1
-        seged=c[i][d]
-        c[i]=seged+c[i][:len(c[i])-3]
-        b+=c[i]+" "
-    b=b.capitalize()[:len(b)-1]
-
-    print(b)
-
-pig_latin("szeretem a tejet  ")
+pig_latin(" a kecsk")
