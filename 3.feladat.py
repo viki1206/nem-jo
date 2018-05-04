@@ -12,6 +12,7 @@ def keret(a):
         help = '*'
         help += b[i]
         for j in range(len(b[i]), maximum):
+            help += ' '
 
 
 
