@@ -17,5 +17,4 @@ def keret(a):
         print(help)
 
 
-
 keret('A macska szereti  a tejet')
