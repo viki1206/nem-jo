@@ -17,6 +17,8 @@ def keret(a):
         print(help)
     help = ''
     for i in range(0, maximum + 2):
+        help += '*'
+    
 
 
 keret('A macska szereti  a tejet')
