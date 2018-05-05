@@ -15,6 +15,7 @@ def keret(a):
             help += ' '
         help += '*'
         print(help)
+    help = ''
     for i in range(0, maximum + 2):
 
 
