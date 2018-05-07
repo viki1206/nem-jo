@@ -1,4 +1,6 @@
 def pig_latin(a):
+    if a[-len(a) + 2] == ' ':
+        a = a[:len(a) - 1]
     seged=''
     b=''
     for ch in a:
