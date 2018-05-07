@@ -1,5 +1,6 @@
 def keret(a):
     if a[-len(a) + 2] == ' ':
+        a = a[:len(a) - 1]
     b=a.split( )
     maximum=0
     for i in range(0,len(b)):
