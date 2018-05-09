@@ -12,7 +12,6 @@ def pig_latin(a):
             b+=seged[0]+'ay'+ch
             seged=''
 
-
     for i in range(1, len(seged)):
         b += seged[i]
     for i in seged:
@@ -33,4 +32,4 @@ def pig_latin(a):
 
     print(b)
 
-pig_latin("szeretem a tejet  ")
+pig_latin("The quick beown fox")
