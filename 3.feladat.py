@@ -1,5 +1,4 @@
-def keret(a):
-    b=a.split( )
+def keret(b):
     maximum=0
     for i in range(0,len(b)):
         if (len(b[i]) > maximum):
@@ -21,4 +20,4 @@ def keret(a):
     print(help)
 
 
-keret('A macska szereti  a tejet')
+keret(("Hello","word","in","a","frame"))
