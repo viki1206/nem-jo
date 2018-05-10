@@ -14,10 +14,8 @@ def pig_latin(a):
 
     for i in range(1, len(seged)):
         b += seged[i]
-    for i in seged:
-        b += i
-        break
-    b += 'ay'
+    b += seged[0] + 'ay' + ch
+    seged = ''
     b=b.capitalize()
     print(b)
 
